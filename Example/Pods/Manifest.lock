@@ -1,0 +1,16 @@
+PODS:
+  - HFAdmobTool (0.1.0)
+
+DEPENDENCIES:
+  - HFAdmobTool (from `../`)
+
+EXTERNAL SOURCES:
+  HFAdmobTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HFAdmobTool: 927c0530ebc101fcaf6c5308033c7bea729a6ee7
+
+PODFILE CHECKSUM: 766221a96ed16037706d968035e698e88c32ec22
+
+COCOAPODS: 1.10.0

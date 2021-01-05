@@ -1,0 +1,23 @@
+{
+  "name": "HFAdmobTool",
+  "version": "0.1.0",
+  "summary": "A short description of HFAdmobTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hufengiOS/HFAdmobTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hufengiOS": "hufeng@sinozo.com"
+  },
+  "source": {
+    "git": "https://github.com/hufengiOS/HFAdmobTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HFAdmobTool/Classes/**/*",
+  "requires_arc": true
+}
