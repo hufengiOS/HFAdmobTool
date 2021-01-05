@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		23455AEAEA9780585C7F0907 /* Pods-HFAdmobTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFAdmobTool_Example.release.xcconfig"; path = "Target Support Files/Pods-HFAdmobTool_Example/Pods-HFAdmobTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		25F2FB803FA8336A62800004 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		25F2FB803FA8336A62800004 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HFAdmobTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFAdmobTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,10 +59,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A7FE0C208AB460E43A91964 /* HFAdmobTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HFAdmobTool.podspec; path = ../HFAdmobTool.podspec; sourceTree = "<group>"; };
+		7A7FE0C208AB460E43A91964 /* HFAdmobTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HFAdmobTool.podspec; path = ../HFAdmobTool.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		988D221FB9A796B9ECC8BF2E /* Pods-HFAdmobTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFAdmobTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HFAdmobTool_Tests/Pods-HFAdmobTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9F90C8318C64675979761108 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9F90C8318C64675979761108 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A3562C8DC0805B3F8DDE0D15 /* Pods_HFAdmobTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFAdmobTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7C64D7C5604B2D44CF83CC /* Pods-HFAdmobTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFAdmobTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-HFAdmobTool_Tests/Pods-HFAdmobTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BDE0ED3BEB446327F78A4F13 /* Pods_HFAdmobTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFAdmobTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				988D221FB9A796B9ECC8BF2E /* Pods-HFAdmobTool_Tests.debug.xcconfig */,
 				BC7C64D7C5604B2D44CF83CC /* Pods-HFAdmobTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = hufengiOS;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6H9LKYK6VH;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = CF4F05287452A4C2D71FC545 /* Pods-HFAdmobTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6H9LKYK6VH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HFAdmobTool/HFAdmobTool-Prefix.pch";
 				INFOPLIST_FILE = "HFAdmobTool/HFAdmobTool-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 23455AEAEA9780585C7F0907 /* Pods-HFAdmobTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6H9LKYK6VH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HFAdmobTool/HFAdmobTool-Prefix.pch";
 				INFOPLIST_FILE = "HFAdmobTool/HFAdmobTool-Info.plist";
